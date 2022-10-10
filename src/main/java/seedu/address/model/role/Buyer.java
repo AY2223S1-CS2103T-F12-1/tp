@@ -22,11 +22,11 @@ public class Buyer {
         this.desiredCharacteristics = desiredCharacteristics;
     }
 
-    public PriceRange getPriceRange() {
+    public PriceRange getRange() {
         return this.priceRange;
     }
 
-    public DesiredCharacteristics getDesiredCharacteristics() {
+    public DesiredCharacteristics getCharacteristics() {
         return this.desiredCharacteristics;
     }
 
@@ -63,5 +63,4 @@ public class Buyer {
                 .append(desiredCharacteristics);
         return sb.toString();
     }
-
 }

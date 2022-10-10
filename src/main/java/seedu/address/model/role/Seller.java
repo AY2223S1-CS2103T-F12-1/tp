@@ -55,5 +55,4 @@ public class Seller {
                 .append(this.sellerProperties);
         return sb.toString();
     }
-
 }
